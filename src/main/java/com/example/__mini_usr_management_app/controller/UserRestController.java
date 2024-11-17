@@ -60,5 +60,4 @@ public class UserRestController {
         String status = userService.forgotPassword(email);
         return new ResponseEntity<>(status, HttpStatus.OK);
     }
-
 }
